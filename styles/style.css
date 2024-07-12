@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .header {
     display: grid;
     grid-template-columns: 40% 20% 40%;
@@ -185,7 +189,7 @@
     color: #FFFFFF;
 }
 
-.lots__card-list-item {
+.lots__card-list-item {  
     flex-basis: 334px;
     min-height: 536px;
     width: 334px;
