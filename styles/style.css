@@ -100,7 +100,8 @@ html {
   z-index: 0;
 }
 
-.overlay {
+.cover::before {
+  content: "";
   position: absolute;
   inset: 0;
   background-color: black;
@@ -219,6 +220,14 @@ html {
   justify-content: space-between;
   padding: 51px 40px 48px;
   height: 100%;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: black;
+  opacity: 60%;
 }
 
 .card_type_film {
